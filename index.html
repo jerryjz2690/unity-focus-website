@@ -3,36 +3,49 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Unity Focus | Premium Sweets and Snacks</title>
-  <meta name="description" content="Unity Focus is a Los Angeles-based sweets and snacks company carrying premium candy and better-for-you snack brands across the United States." />
+  <title>Unity Focus | Specialty Candy &amp; Snack Distribution</title>
+  <meta name="description" content="Unity Focus sources and distributes premium, artisan, and better-for-you candy and snack brands to retailers, event producers, and corporate clients across the United States." />
   <link rel="canonical" href="https://unityfocus.co" />
 
   <meta property="og:type" content="website" />
   <meta property="og:url" content="https://unityfocus.co" />
-  <meta property="og:title" content="Unity Focus | Premium Sweets and Snacks" />
-  <meta property="og:description" content="A Los Angeles-based sweets and snacks company carrying premium candy and better-for-you snack brands across the United States." />
+  <meta property="og:title" content="Unity Focus | Specialty Candy &amp; Snack Distribution" />
+  <meta property="og:description" content="A Los Angeles-based distributor of premium candy and better-for-you snack brands across the United States." />
   <meta property="og:site_name" content="Unity Focus" />
   <meta property="og:locale" content="en_US" />
 
   <meta name="twitter:card" content="summary_large_image" />
-  <meta name="twitter:title" content="Unity Focus | Premium Sweets and Snacks" />
-  <meta name="twitter:description" content="A Los Angeles-based sweets and snacks company carrying premium candy and better-for-you snack brands across the United States." />
+  <meta name="twitter:title" content="Unity Focus | Specialty Candy &amp; Snack Distribution" />
+  <meta name="twitter:description" content="A Los Angeles-based distributor of premium candy and better-for-you snack brands across the United States." />
 
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Geist:wght@300;400;500;600;700;800&family=Geist+Mono:wght@400;500&display=swap" rel="stylesheet" />
 
   <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
 
+  <!-- Reusable aperture SVG symbol -->
+  <svg width="0" height="0" style="position:absolute" aria-hidden="true">
+    <symbol id="aperture" viewBox="0 0 100 100">
+      <path d="M 2,50 a 48,48 0 1,0 96,0 a 48,48 0 1,0 -96,0 Z M 50.000,36.000 L 62.124,43.000 L 62.124,57.000 L 50.000,64.000 L 37.876,57.000 L 37.876,43.000 Z M 50.752,36.803 L 80.966,8.481 L 79.462,6.876 L 49.248,35.197 Z M 61.805,44.053 L 101.440,56.058 L 102.077,53.952 L 62.443,41.947 Z M 61.053,57.250 L 70.474,97.577 L 72.616,97.077 L 63.196,56.750 Z M 49.248,63.197 L 19.034,91.519 L 20.538,93.124 L 50.752,64.803 Z M 38.195,55.947 L -1.440,43.942 L -2.077,46.048 L 37.557,58.053 Z M 38.947,42.750 L 29.526,2.423 L 27.384,2.923 L 36.804,43.250 Z" fill="currentColor" fill-rule="evenodd"/>
+      <circle cx="65.460" cy="34.554" r="2.8" fill="#e3b85a"/>
+    </symbol>
+  </svg>
+
   <header class="nav" id="nav">
     <div class="nav__inner">
-      <a href="#top" class="nav__brand">Unity Focus</a>
+      <a href="#top" class="nav__brand" aria-label="Unity Focus home">
+        <span class="nav__brand-text">UNITY&nbsp;F</span>
+        <svg class="nav__brand-mark" aria-hidden="true"><use href="#aperture"/></svg>
+        <span class="nav__brand-text">CUS</span>
+      </a>
 
-      <nav class="nav__links" id="nav-links">
+      <nav class="nav__links" id="nav-links" aria-label="Primary">
+        <a href="#offer">What we offer</a>
+        <a href="#portfolio">Portfolio</a>
         <a href="#products">Products</a>
-        <a href="#brands">Brands</a>
         <a href="#about">About</a>
         <a href="#contact">Contact</a>
       </nav>
@@ -49,48 +62,143 @@
 
     <section class="hero">
       <div class="hero__inner">
-        <h1 class="hero__title">Curated Sweets and Snacks, Made to Delight</h1>
-        <p class="hero__sub">A portfolio of premium candy and snack brands, rooted in Los Angeles.</p>
+        <div class="topbar">
+          <span class="topbar__mark"><span class="topbar__dot"></span>UNITY FOCUS · DISTRIBUTION CO.</span>
+          <span class="topbar__right">EST. POMONA, CA · BUYER BRIEF 2026</span>
+        </div>
+
+        <svg class="hero__corner" aria-hidden="true"><use href="#aperture"/></svg>
+
+        <div class="hero__grid">
+          <div class="hero__col">
+            <div class="eyebrow">Specialty &amp; Artisan Candy · Wholesale</div>
+            <h1 class="wordmark">
+              <span class="wordmark__row">UNITY</span>
+              <span class="wordmark__row">F<svg class="wordmark__o" aria-hidden="true"><use href="#aperture"/></svg>CUS</span>
+            </h1>
+            <div class="subtitle">
+              Specialty Candy &amp; Snack Distribution
+              <span class="subtitle__sep">/</span>
+              Los Angeles, CA
+            </div>
+          </div>
+          <div class="hero__col hero__col--copy">
+            <p class="hero__desc">
+              <strong>Unity Focus sources and distributes premium, artisan, and better-for-you candy and snack brands</strong>
+              to retailers, event producers, corporate clients, and wholesale buyers across the U.S. We connect quality
+              candymakers with buyers who need reliable sourcing, custom product, and white-glove fulfillment — not a
+              big-box broker, a curated portfolio with a dedicated team behind every order.
+            </p>
+          </div>
+        </div>
       </div>
     </section>
 
-    <section class="section" id="brands">
+    <section class="section" id="offer">
       <div class="container">
-        <h2 class="section__title">Our Brands</h2>
+        <div class="section-head">
+          <span class="section-head__num">01</span>
+          <span class="section-head__title">What we offer</span>
+          <span class="section-head__rule"></span>
+          <span class="section-head__aside">Four service lines</span>
+        </div>
 
-        <div class="brand-grid">
-          <article class="brand-card">
-            <h3 class="brand-card__name">Sparko Sweets</h3>
-            <p class="brand-card__desc">Premium handcrafted lollipops made in Los Angeles.</p>
+        <div class="offer-grid">
+          <article class="offer-card">
+            <span class="offer-card__num">01</span>
+            <h3 class="offer-card__title">Wholesale<br/>Distribution</h3>
+            <p class="offer-card__desc">Reliable national fulfillment for grocery, gift, and specialty retail accounts.</p>
           </article>
-
-          <article class="brand-card">
-            <h3 class="brand-card__name">Albanese</h3>
-            <p class="brand-card__desc">World's best gummies, made in small batches with real fruit flavors.</p>
+          <article class="offer-card">
+            <span class="offer-card__num">02</span>
+            <h3 class="offer-card__title">Custom Branded<br/>Candy</h3>
+            <p class="offer-card__desc">Private label, custom shapes, and house colorways for brand partners and agencies.</p>
           </article>
-
-          <article class="brand-card">
-            <h3 class="brand-card__name">Grüns</h3>
-            <p class="brand-card__desc">Functional daily gummies packed with greens, fruits, and superfoods.</p>
+          <article class="offer-card">
+            <span class="offer-card__num">03</span>
+            <h3 class="offer-card__title">Retail<br/>Placement</h3>
+            <p class="offer-card__desc">Merchandising, planogram, and buyer-introduction support for new SKUs.</p>
           </article>
-
-          <article class="brand-card">
-            <h3 class="brand-card__name">Nutrail</h3>
-            <p class="brand-card__desc">Better-for-you granola and trail mix snacks with clean ingredients.</p>
-          </article>
-
-          <article class="brand-card">
-            <h3 class="brand-card__name">Elemental Superfoods</h3>
-            <p class="brand-card__desc">Superfood snacks crafted for energy, focus, and everyday wellness.</p>
+          <article class="offer-card">
+            <span class="offer-card__num">04</span>
+            <h3 class="offer-card__title">Event &amp;<br/>Gifting Supply</h3>
+            <p class="offer-card__desc">Bulk and styled supply for productions, galas, hospitality, and corporate gifting.</p>
           </article>
         </div>
       </div>
     </section>
 
-    <section class="section section--alt" id="products">
+    <section class="section section--alt" id="portfolio">
       <div class="container">
-        <h2 class="section__title">Featured Products</h2>
-        <p class="section__sub">A selection from across our brand portfolio.</p>
+        <div class="section-head">
+          <span class="section-head__num">02</span>
+          <span class="section-head__title">Portfolio</span>
+          <span class="section-head__rule"></span>
+          <span class="section-head__aside">Flagship + partner brands</span>
+        </div>
+
+        <article class="flagship">
+          <div class="flagship__left">
+            <span class="flagship__tag">Flagship · Nationwide</span>
+            <h3 class="flagship__name">Sparko Sweets</h3>
+            <dl class="flagship__meta">
+              <div><dt>Category</dt><dd>Lollipops</dd></div>
+              <div><dt>Format</dt><dd>Retail · Bulk</dd></div>
+              <div><dt>MOQ</dt><dd>Custom</dd></div>
+            </dl>
+          </div>
+          <div class="flagship__right">
+            <p>
+              Premium handcrafted lollipops made in Los Angeles. Custom shapes, bulk orders,
+              and retail-ready packaging — made in the USA with high-quality ingredients for
+              grocery, gift, and event channels.
+            </p>
+          </div>
+        </article>
+
+        <div class="partner-header">
+          <span class="partner-header__label"><strong>Partner brands</strong> · curated portfolio</span>
+          <span class="partner-header__rule"></span>
+          <span class="partner-header__right">Additional on request</span>
+        </div>
+
+        <div class="partner-grid">
+          <article class="partner-card">
+            <span class="partner-card__slot">Slot 02</span>
+            <span class="partner-card__cat">Gummies · Real Fruit</span>
+            <h4 class="partner-card__name">Albanese</h4>
+            <p class="partner-card__desc">World's best gummies, made in small batches with real fruit flavors.</p>
+          </article>
+          <article class="partner-card">
+            <span class="partner-card__slot">Slot 03</span>
+            <span class="partner-card__cat">Functional · Daily</span>
+            <h4 class="partner-card__name">Grüns</h4>
+            <p class="partner-card__desc">Functional daily gummies packed with greens, fruits, and superfoods.</p>
+          </article>
+          <article class="partner-card">
+            <span class="partner-card__slot">Slot 04</span>
+            <span class="partner-card__cat">Granola · Trail Mix</span>
+            <h4 class="partner-card__name">Nutrail</h4>
+            <p class="partner-card__desc">Better-for-you granola and trail mix snacks with clean ingredients.</p>
+          </article>
+          <article class="partner-card">
+            <span class="partner-card__slot">Slot 05</span>
+            <span class="partner-card__cat">Superfoods · Bars</span>
+            <h4 class="partner-card__name">Elemental Superfoods</h4>
+            <p class="partner-card__desc">Superfood snacks crafted for energy, focus, and everyday wellness.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="products">
+      <div class="container">
+        <div class="section-head">
+          <span class="section-head__num">03</span>
+          <span class="section-head__title">Featured products</span>
+          <span class="section-head__rule"></span>
+          <span class="section-head__aside">Across the portfolio</span>
+        </div>
 
         <div class="product-grid">
 
@@ -197,27 +305,51 @@
       </div>
     </section>
 
-    <section class="section" id="about">
-      <div class="container about">
-        <div class="about__heading">
-          <h2 class="section__title">About Unity Focus</h2>
+    <section class="section section--alt" id="about">
+      <div class="container">
+        <div class="section-head">
+          <span class="section-head__num">04</span>
+          <span class="section-head__title">About</span>
+          <span class="section-head__rule"></span>
+          <span class="section-head__aside">Los Angeles, CA</span>
         </div>
-        <div class="about__copy">
-          <p>Unity Focus is a Los Angeles-based sweets and snacks company dedicated to bringing exceptional candy and better-for-you snack brands to consumers across the United States. We curate and carry a portfolio of premium brands, from artisan handcrafted lollipops to functional gummies and wholesome granola, united by a commitment to quality, joy, and memorable eating experiences.</p>
+
+        <div class="about">
+          <div class="about__heading">
+            <h2 class="about__title">A curated distributor for buyers who care about quality and presentation.</h2>
+          </div>
+          <div class="about__copy">
+            <p>Unity Focus is a Los Angeles-based sweets and snacks company dedicated to bringing exceptional candy and better-for-you snack brands to consumers across the United States.</p>
+            <p>We curate and carry a portfolio of premium brands — from artisan handcrafted lollipops to functional gummies and wholesome granola — united by a commitment to quality, joy, and memorable eating experiences.</p>
+          </div>
         </div>
       </div>
     </section>
 
-    <section class="section section--alt" id="contact">
-      <div class="container contact">
-        <h2 class="section__title">Get in Touch</h2>
-        <p class="section__sub">For wholesale inquiries, brand partnerships, or general questions.</p>
+    <section class="section" id="contact">
+      <div class="container">
+        <div class="section-head">
+          <span class="section-head__num">05</span>
+          <span class="section-head__title">Get in touch</span>
+          <span class="section-head__rule"></span>
+          <span class="section-head__aside">Buyer inquiries · Partnerships</span>
+        </div>
 
-        <address class="contact__address">
-          Unity Focus<br />
-          3207 Pomona Blvd.<br />
-          Pomona, CA 91768
-        </address>
+        <div class="contact">
+          <div class="contact__col">
+            <span class="contact__label">Email</span>
+            <a class="contact__email" href="mailto:info@unityfocus.co">info@unityfocus.co</a>
+            <p class="contact__note">For wholesale inquiries, brand partnerships, or general questions.</p>
+          </div>
+          <div class="contact__col">
+            <span class="contact__label">Headquarters</span>
+            <address class="contact__address">
+              Unity Focus<br/>
+              3207 Pomona Blvd.<br/>
+              Pomona, CA 91768
+            </address>
+          </div>
+        </div>
       </div>
     </section>
 
@@ -225,8 +357,15 @@
 
   <footer class="footer">
     <div class="container footer__inner">
-      <p>&copy; 2026 Unity Focus. All rights reserved.</p>
-      <p>Los Angeles, CA</p>
+      <div class="footer__certs">
+        <span class="cert"><span class="cert__badge">✓</span>FDA-Registered Facility</span>
+        <span class="cert"><span class="cert__badge">★</span>Pomona, CA</span>
+      </div>
+      <div class="footer__center">© 2026 Unity Focus · All rights reserved</div>
+      <div class="footer__contact">
+        <span class="footer__label">Buyer inquiries</span>
+        <a class="footer__email" href="mailto:info@unityfocus.co">info@unityfocus.co</a>
+      </div>
     </div>
   </footer>
 
