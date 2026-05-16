@@ -615,6 +615,9 @@ p { margin: 0; }
   gap: 2.5rem;
 }
 
+/* When only one founder is listed, stay single-column at every width. */
+.founders:has(.founder:only-child) { grid-template-columns: 1fr; }
+
 .founder {
   border-top: 1px solid var(--rule);
   padding-top: 1.5rem;
